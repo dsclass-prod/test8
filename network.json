@@ -24,17 +24,6 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
-                    "output": "df",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "pre_process.R"
         }
     ],
     "nodes": [
@@ -42,16 +31,14 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "yatish",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
-        },
-        {
-            "desc": "",
-            "name": "pre_process.R"
         }
     ],
-    "updated_at": "2018-10-04 13:16:10",
+    "updated_at": "2018-10-04 14:02:48",
     "url": "https://github.com/dsclass-prod/test8"
 }

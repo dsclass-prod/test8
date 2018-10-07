@@ -14,6 +14,17 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "svm.R"
         }
     ],
     "nodes": [
@@ -30,6 +41,6 @@
             "name": "svm.R"
         }
     ],
-    "updated_at": "2018-10-07 02:54:09",
+    "updated_at": "2018-10-07 02:54:18",
     "url": "https://github.com/dsclass-prod/test8"
 }
